@@ -42,6 +42,8 @@ SalePrice = -62,480.58 + 23,743.79 × OverallQual + 55.81 × GrLivArea + 60.77 �
 | Adjusted R-squared | 0.7699 |
 | Residual Std Error | $38,316 |
 
+<img width="1027" height="750" alt="Rplot10" src="https://github.com/user-attachments/assets/ff7f57ba-7657-48d5-b23c-f1dc191ae3a0" />
+
 ### 4. Diagnostic Evaluation
 - **Residuals vs Fitted** — mild heteroscedasticity at higher fitted values
 - **Q-Q Plot** — approximate normality in center; heavy right tail
@@ -60,6 +62,8 @@ SalePrice = -62,480.58 + 23,743.79 × OverallQual + 55.81 × GrLivArea + 60.77 �
 | Residual Std Error | $38,316 | $35,777 | −6.63% |
 | Observations | 2,930 | 2,925 | −5 |
 
+<img width="1020" height="750" alt="Rplot13" src="https://github.com/user-attachments/assets/340ad3ed-1ebf-48a5-bbe9-d0029ae11c49" />
+
 ### 6. All Subsets Regression
 Used the `leaps` package to evaluate all possible predictor combinations across 10 candidate variables. Model selected based on BIC criterion.
 
@@ -72,6 +76,8 @@ Used the `leaps` package to evaluate all possible predictor combinations across 
 | AIC | 69,645.51 | 68,957.86 |
 | BIC | 69,681.40 | 69,029.63 |
 | RSE | $35,777 | $31,777 |
+
+<img width="1077" height="750" alt="Rplot15" src="https://github.com/user-attachments/assets/2f051631-60cf-4834-8595-0d54ee317260" />
 
 ---
 
