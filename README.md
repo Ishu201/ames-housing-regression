@@ -1,6 +1,4 @@
-# Ames Housing Price Prediction — Regression Diagnostics and Model Evaluation
-
-**ALY 6015 | Module 01 | Northeastern University**
+# Ames Housing Price Prediction - Regression Diagnostics and Model Evaluation
 
 An end-to-end multiple linear regression analysis on the Ames Housing dataset to predict residential property sale prices. The project covers exploratory data analysis, diagnostic evaluation, outlier handling, and automated model selection using R.
 
@@ -14,12 +12,7 @@ The [Ames Housing dataset](https://www.kaggle.com/datasets/prevek18/ames-housing
 
 ## Project Structure
 ames-housing-regression/
-│
-├── script.R                          # Full R analysis script
-├── AmesHousing.csv                   # Dataset
-├── AmesHousingDataDocumentation.txt  # Dataset documentation
-├── Project_report.pdf                # Full written report
-└── plots/                            # Generated visualizations
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/1c6dfc39-c3b1-423c-83aa-df68aa6faf22" />
 
 ---
 
@@ -85,9 +78,9 @@ Used the `leaps` package to evaluate all possible predictor combinations across 
 
 ## Key Findings
 
-- **Overall quality** is the strongest single predictor of sale price — each 1-unit increase in rating corresponds to ~$23,744 in added value
+- **Overall quality** is the strongest single predictor of sale price - each 1-unit increase in rating corresponds to ~$23,744 in added value
 - **Living area** adds ~$55.81 per additional square foot
-- **House age** has a negative effect — each additional year reduces price by ~$380.84
+- **House age** has a negative effect - each additional year reduces price by ~$380.84
 - Removing 5 extreme outliers (properties > 4,000 sq ft) improved prediction accuracy by 6.63%
 - The preferred 8-predictor model achieves **Adjusted R² = 0.84**, explaining 84% of variance in sale prices
 
