@@ -11,7 +11,6 @@ The [Ames Housing dataset](https://www.kaggle.com/datasets/prevek18/ames-housing
 ---
 
 ## Project Structure
-ames-housing-regression/
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/1c6dfc39-c3b1-423c-83aa-df68aa6faf22" />
 
 ---
